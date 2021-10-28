@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Graphene Press
 description: Produces graphene using graphite as a source of pure carbon. Requires coolant, a large amount of power, and blast compound to compress the carbon.
 itemCapacity: 12
