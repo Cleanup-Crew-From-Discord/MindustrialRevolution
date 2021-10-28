@@ -16,3 +16,5 @@
 0.19: Removed Roombas (they had no use besides being logic slaves).
 0.20: Gave up on adding a planet, added a new sector instead (currently an ancient caldera reskin).
 0.21: finalized Forgotten Caldera, removed Big Kiln (no need with speed of small kiln) Hyper Solar (solar is bad to begin with) and resized Graphene kiln (4x4 from 2x2) and Compound Enricher (2x2 from 3x3).
+0.22: Moved to Github (yay!)
+0.23: fixed all the bullshit names
