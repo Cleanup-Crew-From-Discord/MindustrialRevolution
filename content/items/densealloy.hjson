@@ -1,0 +1,8 @@
+type: material
+name: Dense Alloy
+description: A mixture originally created by the Derelict. Useful for construction.
+cost: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: research: graphene

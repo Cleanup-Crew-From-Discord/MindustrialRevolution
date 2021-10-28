@@ -1,0 +1,37 @@
+type: forceProjector
+name: Micro Projector
+description: A small shield designed to be incorporated into key factoried to protect vulnerable tiles from stray units.
+size: 1
+health: 100
+category: effect
+breakable: true
+rotate: false
+destructible: true
+configurable: false
+hasLiquids: true
+hasItems: false
+outputsPower: false
+consumesPower: true
+canOverdrive: false
+consumes: {
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: false
+    optional: true
+  }
+  power: 0.6
+}
+requirements: [
+  densealloy/10
+  silicon/25
+  lead/40
+]
+research: force-projector
+radius: 40
+shieldHealth: 75
+cooldownNormal: 1.5
+cooldownLiquid: 0.9
+cooldownBrokenBase: 0.2
+basePowerDraw: 0.1

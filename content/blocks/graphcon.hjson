@@ -1,0 +1,13 @@
+type: Conveyor
+name: Graphenated Conveyor
+description: An improved version of the Titanium Conveyor. Lighter and stronger materials allow for faster transport with more durability.
+requirements: [
+  graphenec/1
+  densealloy/1
+  lead/1
+]
+category: distribution
+speed: 0.15
+displayedSpeed: 20
+research: titanium-conveyor
+health: 100

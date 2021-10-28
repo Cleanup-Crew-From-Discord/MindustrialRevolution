@@ -1,0 +1,88 @@
+type: flying
+name: Primer
+onTitleScreen: true
+description: Only spawned by the Caliber. A hybrid of the Flare and Crawler that can be sent to exterminate Force Projectors that cannot be hit by the Caliber's artillery.
+hitSize: 20
+health: 1500
+speed: 2.5
+flying: true
+range: 30
+drag: 0.03
+accel: 0.05
+rotateSpeed: 4
+rotateShooting: false
+lightRadius: 50
+weapons: [
+  {
+    name: primer-weapon
+    top: false
+    shootCone: 360
+    mirror: false
+    shootSound: explosion
+    ignoreRotation: true
+    reload: 24
+    bullet: {
+      type: BombBulletType
+      lifetime: 0
+      splashDamage: 1200
+      splashDamageRadius: 120
+      killShooter: true
+      absorbable: false
+      instantDisappear: true
+      makeFire: true
+      despawnEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            lifetime: 15
+            sizeFrom: 0
+            sizeTo: 180
+            colorFrom: ffffff
+            colorTo: e6555525
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 20
+            lifetime: 30
+            length: 240
+            strokeFrom: 16
+            strokeTo: 0
+            colorFrom: ffacac
+            colorTo: a63d3d
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 360
+            lifetime: 40
+            sizeFrom: 8
+            sizeTo: 0
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 240
+            lifetime: 40
+            sizeFrom: 16
+            sizeTo: 0
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+        ]
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 30
+    regen: 0.2
+    max: 1000
+    cooldown: 700
+  }
+]

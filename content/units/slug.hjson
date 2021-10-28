@@ -1,0 +1,36 @@
+type: mech
+name: Slug
+description: Upgraded Fortress Mech that has had its armor replaced with graphene and thrusters installed. Shots travel at a higher velocity and pierce while stunning units they hit, keeping the Slug at a range advantage.
+health: 1200
+armor: 10
+hitSize: 15
+speed: 0.50
+mechFrontSway: 0.50
+canBoost: true
+canDrown: true
+rotateSpeed: 2.5
+lightRadius: 90
+lightColor: ea8878
+weapons: [
+  {
+    name: slug-weapon
+    reload: 90
+    inaccuracy: 3
+    shootSound: shootBig
+    bullet: {
+      type: BasicBulletType
+      damage: 60
+      pierce: true
+      speed: 3
+      lifetime: 30
+      width: 20
+      height: 20
+      frontColor: ffffff
+      backColor: bc5452
+      lightColor: ea8878
+      smokeEffect: smoke
+      hitEffect: blastExplosion
+      effect: unmoving
+    }
+  }
+]

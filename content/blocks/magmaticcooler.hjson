@@ -1,0 +1,22 @@
+type: LiquidConverter
+name: Magma Cooler
+description: Cools magma using a high power internal coolant loop. Can cool many pumps' worth of magma.
+size: 3
+consumes: {
+  power: 3
+  liquid: {
+    liquid: magma
+    amount: 0.5
+  }
+}
+outputLiquid: slag/0.1
+requirements: [
+  densealloy/20
+]
+drawer: {
+    type: DrawRotator
+}
+drawSpinSprite: true
+spinSpeed: 4
+category: crafting
+research: magmatictap

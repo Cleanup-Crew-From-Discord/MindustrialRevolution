@@ -1,0 +1,47 @@
+type: mech
+name: Buckshot
+description: Fires a large spray of low damage pellets. Up close, these deal massive damage, but the further away targets are, the less total damage is dealt.
+speed: 0.6
+health: 850
+itemCapacity: 30
+rotateSpeed: 1.7
+hitSize: 12
+outlineColor: 1d1d23
+armor: 5
+canBoost: true
+rotateShooting: true
+commandLimit: 6
+weapons: [
+  {
+    name: buckshot-weapon
+    reload: 120
+    x: 5
+    y: 0
+    top: false
+    rotate: false
+    shots: 40
+    spread: 0.8
+    inaccuracy: 30
+    velocityRnd: 0.3
+    ejectEffect: casing2
+    shootSound: shoot
+    shootEffect: shootBigSmoke
+    bullet: {
+      type: BasicBulletType
+      damage: 20
+      speed: 2
+      width: 3
+      height: 3
+      smokeEffect: smoke
+      despawnEffect: pulverize
+      frontColor: ffffff
+      backColor: bc5452
+      lightColor: ea8878
+      lifetime: 50
+      sprite: bullet
+      knockback: 0.1
+      collides: true
+      impact: true
+    }
+  }
+]

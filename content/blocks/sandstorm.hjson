@@ -1,0 +1,41 @@
+type: ItemTurret
+name: Sandstorm
+description: Small scrap-based turret that erodes enemies with sand
+health: 600
+size: 1
+shots: 3
+itemCapacity: 8
+reload: 40
+range: 75
+recoil: 1
+reloadTime: 5
+shotDelay: 5
+shootSound: shoot
+spread: 5
+inaccuracy: 5
+rotateSpeed: 3
+targetGround: True
+targetAir: True
+ammoUseEffect: none
+ammoTypes: {
+  sand: {
+    type: BasicBulletType
+    lifetime: 11
+    speed: 8
+    damage: 3
+    knockback: 0.5
+    ammoMultiplier: 6
+    homingRange: 0
+    homingPower: 0
+    collidesAir: true
+    collidesGround: true
+    collides: true
+    keepVelocity: true
+  }
+}
+requirements: [
+  sand/25
+  scrap/15
+]
+category: turret
+research: duo

@@ -1,0 +1,12 @@
+type: Door
+name: Large Composite Door
+description: A larger version of the composite door. Functions the same but covers more space and has more health.
+health: 2240
+size: 2
+requirements: [
+  densealloy/24
+  graphenec/24
+  silicon/16
+]
+category: defense
+research: compdoor

@@ -1,0 +1,33 @@
+type: mech
+name: Shell
+description: A scepter chassis with a mortar mounted to the back. Fires explosive shells 
+health: 300
+armor: 2
+hitSize: 8
+speed: 0.55
+canBoost: true
+canDrown: true
+rotateSpeed: 2
+lightRadius: 90
+lightColor: ea8878
+weapons: [
+  {
+    name: shell-weapon
+    reload: 60
+    inaccuracy: 1
+    shootSound: shootSmall
+    bullet: {
+      type: BasicBulletType
+      damage: 20
+      speed: 4
+      lifetime: 48
+      width: 16
+      height: 16
+      frontColor: ffffff
+      backColor: bc5452
+      lightColor: ea8878
+      smokeEffect: smoke
+      hitEffect: none
+    }
+  }
+]

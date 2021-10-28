@@ -1,0 +1,14 @@
+type: storageBlock
+name: Micro Vault
+description: Holds a small amount of items. Mostly useful as a buffer or with unloaders as a sorter/filter.
+itemCapacity: 50
+size: 1
+health: 200
+requirements: [
+  titanium/35
+  copper/40
+  densealloy/20
+  graphenec/10
+]
+research: strongvault
+category: effect

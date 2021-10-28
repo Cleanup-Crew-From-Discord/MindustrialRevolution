@@ -1,0 +1,27 @@
+type: solidPump
+name: Magmatic Siphon
+description: Draws magma from beneath the planet's crust. Requires a moderate amount of power to do so.
+details: This magma is rich in various minerals and materials, but too hot to process. Find a way to cool it.
+health: 500
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 10
+requirements: [
+  densealloy/100
+  lead/80
+  silicon/75
+  graphite/40
+  graphenec/85
+]
+consumes: {
+  power: 1.7
+  liquid: water/0.13
+}
+pumpAmount: 0.2
+rotateSpeed: 0.8
+result: magma
+baseEfficiency: 0.6
+attribute: heat
+category: production
+research: melter

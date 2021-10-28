@@ -1,0 +1,67 @@
+type: mech
+name: Caliber
+description: Heavy siege mech that rains artillery on enemy buildings, bypassing walls. Summons upgraded (and non suicidal) crawlers to support it.
+health: 25500
+armor: 15
+hitSize: 56
+speed: 0.3
+canBoost: false
+canDrown: true
+rotateSpeed: 0.85
+lightRadius: 90
+lightColor: ea8878
+weapons: [
+  {
+    name: caliber-artillery
+    x: 22.5
+    y: -22
+    rotate: true
+    rotateSpeed: 0.85
+    reload: 300
+    shots: 16
+    inaccuracy: 18
+    velocityRnd: 0.15
+    shotDelay: 0.5
+    recoil: 3
+    shootY: 6
+    shootSound: artillery
+    ejectEffect: casing1
+    shake: 2
+    bullet: {
+      type: ArtilleryBulletType
+      splashDamage: 140
+      splashDamageRadius: 90
+      speed: 5
+      lifetime: 85
+      collides: false
+      width: 40
+      height: 40
+      hitShake: 2
+      frontColor: ffffff
+      backColor: bc5452
+      lightColor: ea8878
+      smokeEffect: smoke
+      hitEffect: shootBigSmoke
+      despawnEffect: {
+        type: ParticleEffect
+        particles: 25
+        sizeFrom: 3
+        sizeTo: 0
+        length: 90
+        lifetime: 20
+        colorFrom: ea8878
+        colorTo: bc5452
+        cone: 15
+      }
+    }
+  }
+]
+abilities: [
+  {
+    type: UnitSpawnAbility
+    spawnX: 6
+    spawnY: -22
+    unit: primer
+    spawnTime: 1800
+  }
+]

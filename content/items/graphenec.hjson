@@ -1,0 +1,9 @@
+type: material
+name: Graphene
+description: Pure carbon compressed into atomically thin wafers. Its light weight and strength make it perfect for use in heavily armored units and defensive structures.
+cost: 3
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+color: 9a9cc4
+research: surge-alloy

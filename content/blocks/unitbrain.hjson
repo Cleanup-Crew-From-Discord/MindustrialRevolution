@@ -1,0 +1,19 @@
+type: wall
+name: Unit Control Processor
+description: Increases unit cap by 1, but at a massive materials and size cost. Takes a long time to construct, but once built functions forever.
+health: 3200
+constructTime: 2800
+size: 7
+unitCapModifier: 1
+requirements: [
+  copper/10000
+  lead/10000
+  densealloy/12000
+  titanium/9500
+  silicon/11000
+  thorium/9000
+  surge-alloy/8000
+  phase-fabric/4000
+  graphenec/2000
+]
+research: core-nucleus

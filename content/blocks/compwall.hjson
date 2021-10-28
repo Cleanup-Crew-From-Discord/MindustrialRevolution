@@ -1,0 +1,11 @@
+type: Wall
+name: Composite Wall
+description: A wall consisting of a graphene shell over a dense alloy core. Incredibly strong and sturdy.
+size: 1
+health: 1015
+requirements: [
+  densealloy/6
+  graphenec/6
+]
+category: defense
+research: surge-wall

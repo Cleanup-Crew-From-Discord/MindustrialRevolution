@@ -1,0 +1,10 @@
+type: material
+name: Charged Blast Compound
+description: Blast Compound that has been imbued with the destructive energy contained in surge alloy. Devastates everything nearby when detonated intentionally or inadvertently."
+cost: 3
+flammability: 0.5
+explosiveness: 1.5
+radioactivity: 0
+charge: 0.5
+color: ff895e
+research: graphenec

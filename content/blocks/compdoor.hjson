@@ -1,0 +1,12 @@
+type: Door
+name: Composite Door
+description: A thinner composite wall that can be opened and closed.
+size: 1
+health: 560
+requirements: [
+  densealloy/6
+  graphenec/6
+  silicon/4
+]
+category: defense
+research: door

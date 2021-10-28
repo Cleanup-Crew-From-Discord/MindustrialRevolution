@@ -1,0 +1,14 @@
+type: storageBlock
+name: Armored Vault
+description: A tougher, stronger vault. Holds more items and has more health.
+itemCapacity: 1500
+size: 3
+health: 1020
+requirements: [
+  titanium/300
+  thorium/250
+  densealloy/200
+  graphenec/150
+]
+research: graphenec
+category: effect

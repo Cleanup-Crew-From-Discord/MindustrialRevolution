@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Compound Enricher
+description: Diffuses the high electric energy of surge alloy into blast compound to create a devastating charged compound. Requires surge alloy, blast compound, high power, and plenty of coolant.
+itemCapacity: 20
+size: 2
+health: 350
+hasPower: true
+hasItems: true
+craftTime: 180
+updateEffects: producesmoke
+consumes: {
+  power: 4
+  liquid: cryofluid/0.59
+  items: {
+    items: [
+      surge-alloy/1
+      blast-compound/10
+    ]
+  }
+}
+requirements: [
+  graphenec/50
+  plastanium/70
+  silicon/100
+  titanium/80
+  phase-fabric/10
+]
+category: crafting
+research: graphenemaker
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: chargedcompound/10

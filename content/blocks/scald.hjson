@@ -1,0 +1,49 @@
+type: ItemTurret
+name: Scald
+description: A direct upgrade to the scorch. Can target air.
+shootSound: flame2
+health: 600
+size: 2
+reloadTime: 2.5
+range: 80
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 7
+ammoTypes: {
+  coal: {
+    type: FireBulletType
+    speed: 7
+    damage: 19
+    width: 2
+    height: 2
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    lifetime: 1
+    despawnEffect: none
+    hitEffect: shootBigSmoke
+    pierce: true
+    status: burning
+  }
+  pyratite: {
+    type: FireBulletType
+    speed: 7
+    damage: 28
+    width: 2
+    height: 2
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    lifetime: 1
+    despawnEffect: fire
+    hitEffect: shootPyraFlame
+    pierce: true
+    status: burning
+  }
+}
+requirements: [
+  titanium/15
+  silicon/70
+  densealloy/25
+  graphite/15
+]
+category: turret
+research: scorch

@@ -1,0 +1,51 @@
+type: ItemTurret
+name: Carbonizer
+description: The ultimate upgrade to the Scorch. Higher range, more damage. Heavily increased temperatures leave units with a devastating afterburn.
+shootSound: flame2
+health: 800
+size: 3
+reloadTime: 2
+range: 100
+shots: 1
+ammoUseEffect: none
+rotateSpeed: 8
+ammoTypes: {
+  coal: {
+    type: FireBulletType
+    speed: 5
+    damage: 24
+    width: 0.1
+    height: 0.1
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    lifetime: 1
+    despawnEffect: none
+    hitEffect: shootBigSmoke
+    pierce: true
+    status: melting
+  }
+  pyratite: {
+    type: FireBulletType
+    speed: 5
+    damage: 33
+    width: 0.1
+    height: 0.1
+    shootEffect: shootPyraFlame
+    smokeEffect: none
+    lifetime: 1
+    despawnEffect: fire
+    hitEffect: shootPyraFlame
+    pierce: true
+    status: melting
+  }
+}
+requirements: [
+  titanium/150
+  silicon/70
+  densealloy/200
+  graphite/250
+  graphenec/300
+  thorium/75
+]
+category: turret
+research: scald

@@ -1,0 +1,32 @@
+type: Reconstructor
+size: 12
+name: Tier 1 Unit Upgrader
+description: Fits tougher armor and stronger armaments onto daggers, granting them the ability to boost along with seeking bullets.
+constructTime: 500
+liquidCapacity: 30
+consumes: {
+  power: 32.8
+    items: {
+      items: [
+        silicon/125
+        graphenec/75
+        densealloy/50
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.1
+  }
+}
+upgrades: [
+  [dagger, shell]
+]
+requirements: [
+  silicon/250
+  titanium/150
+  thorium/100
+  densealloy/70
+  graphenec/60
+]
+category: units
+research: rebuilder

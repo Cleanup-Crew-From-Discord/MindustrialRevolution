@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Hurricane
+description: A heavy and devastatingly powerful turret designed specifically to fire charged compound at attackers. Requires a large amount of cryofluid and power.
+health: 2000
+size: 4
+shots: 1
+alternate: "false"
+itemCapacity: 10
+reloadTime: 40
+range: 200
+recoil: 0.3
+shootSound: shootBig
+spread: 5
+inaccuracy: 2.5
+rotateSpeed: 2
+targetGround: "true"
+targetAir: True
+coolantUsage: 0.3
+ammoUseEffect: none
+ammoTypes: {
+  chargedcompound: {
+    type: MissileBulletType
+    lifetime: 40
+    speed: 5
+    damage: 120
+    shootEffect: casing1
+    ammoMultiplier: 1
+    splashDamage: 90
+    lightning: 3
+    width: 20
+    height: 40
+    lightningLength: 9
+    splashDamageRadius: 60
+    status: shocked
+    statusDuration: 600
+    collidesAir: true
+    collidesGround: true
+    collides: true
+    keepVelocity: true
+  }
+}
+requirements: [
+  plastanium/100
+  graphite/120
+  densealloy/90
+  surge-alloy/50
+  graphenec/80
+]
+category: turret
+research: spectre

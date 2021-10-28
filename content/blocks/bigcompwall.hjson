@@ -1,0 +1,11 @@
+type: Wall
+name: Large Composite Wall
+description: A larger composite wall. Can withstand large amounts of damage.
+health: 4060
+size: 2
+requirements: [
+  densealloy/24
+  graphenec/24
+]
+category: defense
+research: compwall

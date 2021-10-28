@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: Alloy Smelter
+description: Recovered technology that creates a dense alloy from copper and lead using coal. Used to make sturdy buildings.
+itemCapacity: 6
+size: 1
+health: 35
+hasPower: false
+hasItems: true
+craftTime: 79.8
+updateEffects: producesmoke
+craftEffect: steam
+consumes: {
+  items: {
+    items: [
+      copper/1
+      lead/2
+      coal/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  titanium/50
+  silicon/10
+  graphite/25
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: densealloy/1
