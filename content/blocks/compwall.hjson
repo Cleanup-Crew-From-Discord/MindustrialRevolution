@@ -1,5 +1,5 @@
 type: Wall
-name: Composite Wall
+localizedName: Composite Wall
 description: A wall consisting of a graphene shell over a dense alloy core. Incredibly strong and sturdy.
 size: 1
 health: 1015
