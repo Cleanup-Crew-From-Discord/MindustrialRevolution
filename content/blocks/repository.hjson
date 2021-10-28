@@ -1,5 +1,5 @@
 type: storageBlock
-name: Micro Vault
+name: Repository
 description: Holds a small amount of items. Mostly useful as a buffer or with unloaders as a sorter/filter.
 itemCapacity: 50
 size: 1
