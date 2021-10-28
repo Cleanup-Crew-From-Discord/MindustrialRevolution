@@ -2,7 +2,7 @@ type: ItemBridge
 name: Graphenated Bridge
 transportTime: 3
 description: Shorter than phase conveyors and longer than standard bridges, but can hold more items and doesn't require power.
-range: 5
+range: 8
 hasPower: false
 capacity: 15
 health: 40
