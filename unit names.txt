@@ -1,0 +1,12 @@
+Dagger Tree:
+
+Shell
+-upgraded dagger with double damage and health, boost, and seeking bullets.
+Buckshot
+-upgraded mace that fires buckshot blasts and can boost, along with the extra health and damage
+Slug
+- Fires long ranged incendiary blasts that seek their targets. Outranges lots of turrets but is slower. Higher armor and damage.
+Tracer
+- Fires medium range punishing shots in bursts of 10. These shots do not pierce
+Caliber
+- Fires artillery salvos that can cause devastating fires. Fires a burst of 5 fragmented shells every few seconds. Insanely good at wrecking bases but can be easily taken out with hordes of swarm units.

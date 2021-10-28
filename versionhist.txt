@@ -1,0 +1,18 @@
+0.01: Added Sandstorm, Kiln, Scrapper, Hyper Solar Panel
+0.02: Added Scrap Wraith and its upgrade
+0.03: Renamed Scrap Wraith to Quark and upgrade to Proton
+0.04: Properly sprited all existing blocks
+0.05: Added charged compound, graphene, and their factories
+0.06: Reworked the factory ratios and sprited the graphene factory + both items
+0.07: Fixed sprite color issues and a few buggy mechanics.
+0.08-0.11: Bug Fixes
+0.12: Units removed because I'm too dumb to make them and because i didn't feel they had a purpose. Added Dense Alloy.
+0.13: Added Strong Vault, Micro Container, Composite Walls + Doors, and two scorch upgrades. Modified Spectre.
+0.14: Fixed many things, and partially fixed the scorch upgrades. Removed the Spectre modification because it was dumb.
+0.15: Units returned, with Roomba taking the place of Quark but without armament and a line of Dagger tree direct upgrades. Added sprites.
+0.16: Added Caliber and Primer.
+0.17: Tweaked Caliber and overhauled Primer. Introduced Buckshot
+0.18: Sprites and bugfixes (graphenated bridges no longer crash the game when connected, no clue how I fixed it but it just works now.)
+0.19: Removed Roombas (they had no use besides being logic slaves).
+0.20: Gave up on adding a planet, added a new sector instead (currently an ancient caldera reskin).
+0.21: finalized Forgotten Caldera, removed Big Kiln (no need with speed of small kiln) Hyper Solar (solar is bad to begin with) and resized Graphene kiln (4x4 from 2x2) and Compound Enricher (2x2 from 3x3).

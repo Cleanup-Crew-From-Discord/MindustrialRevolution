@@ -1,0 +1,7 @@
+Reds for units
+ff624d (light)
+bc5452 (dark)
+Darks for units
+3c3837 (v dark)
+515151 (med dark)
+646567 (light dark)
