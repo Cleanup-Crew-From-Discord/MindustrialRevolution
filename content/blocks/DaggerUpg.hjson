@@ -1,6 +1,6 @@
 type: Reconstructor
 size: 12
-name: Tier 1 Unit Upgrader
+localizedName: Tier 1 Unit Augmenter
 description: Fits tougher armor and stronger armaments onto daggers, granting them the ability to boost along with seeking bullets.
 constructTime: 500
 liquidCapacity: 30
@@ -29,4 +29,4 @@ requirements: [
   graphenec/60
 ]
 category: units
-research: rebuilder
+research: graphenec
