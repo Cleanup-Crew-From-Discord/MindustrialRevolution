@@ -27,6 +27,7 @@ weapons: [
       splashDamage: 250
       splashDamageRadius: 60
       speed: 2
+      sprite: large-bomb
       lifetime: 180
       width: 45
       height: 45
@@ -44,8 +45,7 @@ weapons: [
             sizeFrom: 0
             sizeTo: 170
             lifetime: 35
-            colorFrom: e65555
-            colorTo: e6555575
+            colorTo: ff624d
             strokeFrom: 2
             strokeTo: 0
           }
@@ -54,7 +54,8 @@ weapons: [
             particles: 45
             length: 130
             lifetime: 50
-            colorTo: e6555520
+            colorFrom: ff624d
+            colorTo: bc5452
             sizeFrom: 20
             sizeTo: 0
           }
@@ -64,7 +65,8 @@ weapons: [
             particles: 20
             length: 75
             lifetime: 35
-            colorTo:ff624d
+            colorFrom: 646567
+            colorTo:3c3837
             sizeFrom: 5
             sizeTo: 0
           }
