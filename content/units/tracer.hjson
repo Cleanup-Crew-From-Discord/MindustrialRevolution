@@ -18,16 +18,16 @@ weapons: [
     shootSound: shootBig
     bullet: {
       type: BombBulletType
-      damage: 200
+      damage: 250
       speed: 2
-      lifetime: 48
+      lifetime: 360
       width: 40
       height: 40
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
       smokeEffect: smoke
-      hitEffect: impactShockwave
+      hitEffect: impactReactorExplosion
     }
   }
   {
