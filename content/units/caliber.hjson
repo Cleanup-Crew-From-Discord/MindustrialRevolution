@@ -34,6 +34,7 @@ weapons: [
       speed: 5
       lifetime: 85
       collides: false
+      pierce: true
       width: 40
       height: 40
       hitShake: 2
