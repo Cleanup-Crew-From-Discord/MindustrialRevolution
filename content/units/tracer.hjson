@@ -5,7 +5,7 @@ health: 9500
 armor: 10
 mechFrontSway: 1
 hitSize: 22
-speed: 0.36
+speed: 0.33
 canBoost: true
 drownTimeMultiplier: 4
 mechStepParticles: true
@@ -22,6 +22,7 @@ weapons: [
     y: 10
     inaccuracy: 0
     shootSound: shootBig
+    alternate: false
     bullet: {
       type: ArtilleryBulletType
       splashDamage: 250
@@ -34,6 +35,8 @@ weapons: [
       hitshake: 10
       collides: false
       collidesTiles: false
+      collidesGround: false
+      collidesAir: false
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
@@ -105,6 +108,7 @@ weapons: [
     shots: 2
     burstSpacing: 5
     inaccuracy: 17
+    alternate: false
     rotate: true
     rotateSpeed: 12
     top: true
