@@ -37,7 +37,7 @@ weapons: [
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
-      effect:
+      effect: concussed
       smokeEffect: smoke
       despawnEffect:  {
         type: MultiEffect
