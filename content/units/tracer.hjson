@@ -29,14 +29,71 @@ weapons: [
       splashDamageRadius: 60
       speed: 2
       lifetime: 180
-      width: 40
-      height: 40
+      width: 90
+      height: 90
+      hitshake: 10
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
       smokeEffect: smoke
-      despawnEffect: nuclearsmoke
-      hitEffect: nuclearcloud
+      despawnEffect:  {
+        type: MultiEffect
+        lifetime: 120
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 120
+            lifetime: 25
+            colorFrom: e65555
+            colorTo: e6555575
+            strokeFrom: 5
+            strokeTo: 0
+          }
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 60
+            lifetime: 25
+            colorFrom: e65555
+            colorTo: e6555575
+            strokeFrom: 10
+            strokeTo: 0
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 30
+            length: 140
+            lifetime: 35
+            colorTo: e6555520
+            strokeFrom: 5
+            strokeTo: 0
+            lenFrom: 25
+            lenTo: 8
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 180
+            lifetime: 90
+            sizeFrom: 6
+            sizeTo: 6
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+          {
+            type: ParticleEffect
+            particles: 20
+            length: 80
+            lifetime: 120
+            sizeFrom: 12
+            sizeTo: 12
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+        ]
+      }
     }
   }
   {
