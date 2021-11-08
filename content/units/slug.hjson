@@ -1,6 +1,6 @@
 type: mech
 name: Slug
-description: Upgraded Fortress Mech that has had its armor replaced with graphene and thrusters installed. Shots travel at a higher velocity and pierce while stunning units they hit, keeping the Slug at a range advantage.
+description: Upgraded Fortress Mech that has had its armor replaced with graphene and thrusters installed. Shots travel slower but drastically reduce unit speed allowing the Slug to keep a range advantage.
 health: 1200
 armor: 10
 hitSize: 15
@@ -18,13 +18,13 @@ weapons: [
     inaccuracy: 3
     shootSound: shootBig
     bullet: {
-      type: BasicBulletType
+      type: ArtilleryBulletType
       damage: 60
-      pierce: true
-      speed: 3
-      lifetime: 30
-      width: 20
-      height: 20
+      pierce: false
+      speed: 1
+      lifetime: 90
+      width: 25
+      height: 25
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
