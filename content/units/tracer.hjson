@@ -36,7 +36,7 @@ weapons: [
       lightColor: ea8878
       smokeEffect: smoke
       despawnEffect: nuclearsmoke
-      hitEffect: impactCloud
+      hitEffect: nuclearcloud
     }
   }
   {
