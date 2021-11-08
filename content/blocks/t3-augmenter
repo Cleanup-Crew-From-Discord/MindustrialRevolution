@@ -1,0 +1,31 @@
+type: Reconstructor
+size: 7
+localizedName: Tier 3 Unit Augmenter
+description: Equips a fortress with weaponry that can pin enemies in place at the expense of a slight range and travel speed decrease.
+constructTime: 1800
+liquidCapacity: 60
+consumes: {
+  power: 6.5
+    items: {
+      items: [
+        silicon/250
+        graphenec/125
+        surge-alloy/50
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.2
+  }
+}
+upgrades: [
+  [fortress, slug]
+]
+requirements: [
+  silicon/500
+  plastanium/450
+  densealloy/600
+  graphenec/225
+]
+category: units
+research: t2-augmenter
