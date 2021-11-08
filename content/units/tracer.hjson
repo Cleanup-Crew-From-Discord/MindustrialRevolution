@@ -1,0 +1,45 @@
+type: mech
+name: Tracer
+description: A scepter chassis with a mortar mounted to the back. Fires explosive fragmenting shells that spread fire within a base. Contains a small anti-air turret on the back to protect from small threats.
+health: 8500
+armor: 10
+hitSize: 22
+speed: 0.55
+canBoost: true
+canDrown: true
+rotateSpeed: 2
+lightRadius: 90
+lightColor: ea8878
+weapons: [
+  {
+    name: tracer-weapon
+    reload: 180
+    inaccuracy: 0
+    shootSound: shootBig
+    bullet: {
+      type: BombBulletType
+      damage: 200
+      speed: 2
+      lifetime: 48
+      width: 40
+      height: 40
+      frontColor: ffffff
+      backColor: bc5452
+      lightColor: ea8878
+      smokeEffect: smoke
+      hitEffect: ImpactShockwave
+    }
+  }
+  {
+    name: tracer-antiair
+    reload: 18
+    shots: 2
+    burstSpacing: 5
+    inaccuracy: 17
+    rotate: true
+    top: true
+    controllable: false
+    autoTarget: true
+    bullet: flakGlassFrag
+  }
+]
