@@ -67,6 +67,7 @@ weapons: [
             colorTo:ff624d
             sizeFrom: 5
             sizeTo: 0
+          }
           {
             type: ParticleEffect
             particles: 30
