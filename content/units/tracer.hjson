@@ -1,6 +1,6 @@
 type: mech
 name: Tracer
-description: A Scepter Mech chassis with a mortar mounted to the back. Fires explosive highly incendiary shells that spread fire within a base. Contains a small anti-air turret on the back to protect from small airborne threats.
+description: A Scepter Mech chassis with a mortar mounted to the back. Fires highly incendiary explosives that can stagger hit units.. Contains a small anti-air turret on the back to protect from small airborne threats.
 health: 9500
 armor: 10
 mechFrontSway: 1
@@ -44,7 +44,7 @@ weapons: [
       incendSpread: 10
       incendChance: 0.8
       status: concussed
-      statusDuration: 300
+      statusDuration: 420
       smokeEffect: smoke
       despawnEffect:  {
         type: MultiEffect
@@ -108,7 +108,7 @@ weapons: [
     name: tracer-antiair
     x: 0
     y: 4
-    reload: 18
+    reload: 36
     shots: 2
     burstSpacing: 5
     inaccuracy: 17
