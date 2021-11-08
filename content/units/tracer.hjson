@@ -35,7 +35,8 @@ weapons: [
       backColor: bc5452
       lightColor: ea8878
       smokeEffect: smoke
-      hitEffect: explosion
+      despawnEffect: impactSmoke
+      hitEffect: impactCloud
     }
   }
   {
