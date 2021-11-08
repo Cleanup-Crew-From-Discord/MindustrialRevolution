@@ -32,9 +32,12 @@ weapons: [
       width: 45
       height: 45
       hitshake: 10
+      collides: false
+      collidesTiles: false
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
+      effect:
       smokeEffect: smoke
       despawnEffect:  {
         type: MultiEffect
@@ -103,9 +106,10 @@ weapons: [
     burstSpacing: 5
     inaccuracy: 17
     rotate: true
+    rotateSpeed: 12
     top: true
     controllable: false
     autoTarget: true
-    bullet: flakGlassFrag
+    bullet: flakGlass
   }
 ]
