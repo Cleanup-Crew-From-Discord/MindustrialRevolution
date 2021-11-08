@@ -35,8 +35,7 @@ weapons: [
       hitshake: 10
       collides: false
       collidesTiles: false
-      collidesGround: false
-      collidesAir: false
+      pierce: true
       frontColor: ffffff
       backColor: bc5452
       lightColor: ea8878
