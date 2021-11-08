@@ -1,0 +1,32 @@
+type: Reconstructor
+size: 5
+localizedName: Tier 2 Unit Augmenter
+description: Replaces the Mace's flamethrower with a powerful buckshot gun, along with upgrading the armor and adding boosters.
+constructTime: 1500
+liquidCapacity: 45
+consumes: {
+  power: 4.5
+    items: {
+      items: [
+        silicon/200
+        graphenec/125
+        densealloy/75
+      ]
+    }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.15
+  }
+}
+upgrades: [
+  [mace, buckshot]
+]
+requirements: [
+  silicon/350
+  plastanium/200
+  thorium/150
+  densealloy/120
+  graphenec/75
+]
+category: units
+research: t1-augmenter
