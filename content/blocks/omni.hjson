@@ -37,7 +37,63 @@ ammoTypes: {
     status: concussed
     statusDuration: 600
     collides: false
-    despawnEffect: impactReactorExplosion
+   despawnEffect:  {
+        type: MultiEffect
+        lifetime: 120
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 0
+            sizeTo: 170
+            lifetime: 35
+            colorTo: ff624d
+            strokeFrom: 2
+            strokeTo: 0
+          }
+          {
+            type: ParticleEffect
+            particles: 45
+            length: 130
+            lifetime: 50
+            colorFrom: ff624d
+            colorTo: bc5452
+            sizeFrom: 20
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            line: true
+            particles: 20
+            length: 75
+            lifetime: 35
+            colorFrom: 646567
+            colorTo:3c3837
+            sizeFrom: 5
+            sizeTo: 0
+          }
+          {
+            type: ParticleEffect
+            particles: 30
+            length: 180
+            lifetime: 120
+            sizeFrom: 6
+            sizeTo: 6
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+          {
+            type: ParticleEffect
+            particles: 20
+            length: 80
+            lifetime: 180
+            sizeFrom: 12
+            sizeTo: 12
+            colorFrom: 656565
+            colorTo: 65656500
+          }
+        ]
+      }
+    }
   }
 }
 requirements: [
