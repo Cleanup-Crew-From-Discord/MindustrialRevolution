@@ -25,11 +25,12 @@ ammoTypes: {
     type: PointBulletType
     lifetime: 30
     speed: 300
+    trailLength: 0
     damage: 120
     drawSize: 1
     shootEffect: casing1
     ammoMultiplier: 1
-    splashDamage: 90
+    splashDamage: 9000
     lightning: 3
     width: 20
     height: 40
