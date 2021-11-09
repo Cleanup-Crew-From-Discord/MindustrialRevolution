@@ -95,7 +95,6 @@ ammoTypes: {
       }
     }
   }
-}
 requirements: [
   plastanium/100
   graphite/120
