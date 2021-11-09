@@ -24,7 +24,7 @@ ammoTypes: {
   chargedcompound: {
     type: PointBulletType
     lifetime: 30
-    speed: brange
+    speed: 300
     damage: 120
     drawSize: 1
     shootEffect: casing1
