@@ -1,0 +1,52 @@
+type: ItemTurret
+name: Omni
+description: A turret that can cause quantum field disruptions from a massive range, inflicting devastating damage on massive groups of enemies. Requires an immense amount of power to use.
+health: 2000
+size: 4
+shots: 1
+alternate: false
+itemCapacity: 10
+reloadTime: 40
+range: 700
+recoil: 0.3
+shootSound: shootBig
+spread: 0
+inaccuracy: 0
+rotateSpeed: 200
+chargeTime: 80
+heatColor: ffffff
+cooldown: 3
+targetGround: true
+targetAir: true
+coolantUsage: 0.3
+ammoUseEffect: none
+ammoTypes: {
+  chargedcompound: {
+    type: PointBulletType
+    lifetime: 30
+    speed: brange
+    damage: 120
+    drawSize: 1
+    shootEffect: casing1
+    ammoMultiplier: 1
+    splashDamage: 90
+    lightning: 3
+    width: 20
+    height: 40
+    lightningLength: 9
+    splashDamageRadius: 90
+    status: concussed
+    statusDuration: 600
+    collides: false
+    despawnEffect: impactReactorExplosion
+  }
+}
+requirements: [
+  plastanium/100
+  graphite/120
+  densealloy/90
+  surge-alloy/50
+  graphenec/80
+]
+category: turret
+research: spectre
