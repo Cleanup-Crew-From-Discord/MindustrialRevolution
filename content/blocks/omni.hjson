@@ -13,9 +13,8 @@ shootSound: shootBig
 spread: 0
 inaccuracy: 0
 rotateSpeed: 200
-chargeTime: 80
 heatColor: ffffff
-cooldown: 3
+cooldown: 100
 targetGround: true
 targetAir: true
 coolantUsage: 0.3
@@ -25,16 +24,15 @@ ammoTypes: {
     type: PointBulletType
     lifetime: 30
     speed: 300
-    trailLength: 0
+    trailLength: -1
+    trailEffect: instTrail
     damage: 120
     drawSize: 1
     shootEffect: casing1
     ammoMultiplier: 1
     splashDamage: 9000
-    lightning: 3
-    width: 20
-    height: 40
-    lightningLength: 9
+    width: 1
+    height: 1
     splashDamageRadius: 90
     status: concussed
     statusDuration: 600
