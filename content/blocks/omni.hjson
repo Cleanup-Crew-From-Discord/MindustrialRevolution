@@ -12,7 +12,8 @@ recoil: 0.3
 shootSound: shootBig
 spread: 0
 inaccuracy: 0
-rotateSpeed: 200
+rotateSpeed: 0
+shootCone: 360
 heatColor: ffffff
 cooldown: 100
 targetGround: true
