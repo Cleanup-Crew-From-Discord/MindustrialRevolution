@@ -19,6 +19,7 @@ targetGround: true
 targetAir: true
 coolantUsage: 0.3
 shootEffect: none
+smokeEffect: none
 ammoUseEffect: none
 ammoTypes: {
   chargedcompound: {
@@ -29,7 +30,7 @@ ammoTypes: {
     trailEffect: none
     damage: 120
     drawSize: 1
-    shootEffect: casing1
+    shootEffect: none
     ammoMultiplier: 1
     splashDamage: 9000
     width: 1
