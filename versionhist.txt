@@ -18,3 +18,4 @@
 0.21: finalized Forgotten Caldera, removed Big Kiln (no need with speed of small kiln) Hyper Solar (solar is bad to begin with) and resized Graphene kiln (4x4 from 2x2) and Compound Enricher (2x2 from 3x3).
 0.22: Moved to Github (yay!)
 0.23: fixed all the bullshit names
+0.24: Hyperdriven Drill added, units finished up, T1-3 reconstructor added.
