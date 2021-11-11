@@ -22,7 +22,7 @@ liquidBoostIntensity: 1.25
 category: production
 research: blast-drill
 requirements: [
-  dense-alloy/120
+  densealloy/120
   graphite/110
   silicon/100
   thorium/80
