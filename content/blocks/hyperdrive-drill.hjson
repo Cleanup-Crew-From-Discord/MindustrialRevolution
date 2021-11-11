@@ -1,0 +1,30 @@
+name: Hyperdriven Drill
+description: Uses an ultra-tough graphene tipped drill to efficiently mine ore. Requires coolant to prevent overheating due to sheer mining speed.
+type: Drill
+size: 5
+health: 820
+drillTime: 220
+tier: 6
+drawRim: true
+heatColor: 8dff9a
+hardnessDrillMultiplier: 25
+rotateSpeed: 6
+consumes: {
+  power: 4
+  liquid: {
+    liquid: cryofluid
+    amount: 0.09
+    booster: true
+    optional: false
+  }
+}
+liquidBoostIntensity: 1.25
+category: production
+research: blast-drill
+requirements: [
+  dense-alloy/120
+  graphite/110
+  silicon/100
+  thorium/80
+  graphenec/60
+]
