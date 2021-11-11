@@ -19,7 +19,8 @@ weapons: [
     shootSound: shootBig
     bullet: {
       type: ArtilleryBulletType
-      damage: 60
+      splashDamage: 60
+      splashDamageRadius: 20
       pierce: false
       speed: 1
       lifetime: 90
@@ -30,7 +31,7 @@ weapons: [
       lightColor: ea8878
       smokeEffect: smoke
       hitEffect: blastExplosion
-      effect: unmoving
+      effect: concussed
     }
   }
 ]
