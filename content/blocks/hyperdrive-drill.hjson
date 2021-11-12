@@ -18,7 +18,7 @@ consumes: {
     optional: false
   }
 }
-liquidBoostIntensity: 1.25
+liquidBoostIntensity: 1.70
 category: production
 research: blast-drill
 requirements: [
