@@ -4,7 +4,7 @@ description: The ultimate upgrade to the Scorch. Higher range, more damage. Heav
 shootSound: flame2
 health: 800
 size: 3
-reloadTime: 2
+reloadTime: 1.5
 range: 100
 shots: 1
 ammoUseEffect: none
@@ -14,29 +14,31 @@ ammoTypes: {
     type: FireBulletType
     speed: 5
     damage: 24
-    width: 0.1
-    height: 0.1
+    hitSize: 8
     shootEffect: shootPyraFlame
     smokeEffect: none
-    lifetime: 1
+    lifetime: 18
     despawnEffect: none
+    collidesAir: true
     hitEffect: shootBigSmoke
     pierce: true
-    status: melting
+    status: burning
+    hittable: false
   }
   pyratite: {
     type: FireBulletType
     speed: 5
     damage: 33
-    width: 0.1
-    height: 0.1
+    hitSize: 8
     shootEffect: shootPyraFlame
     smokeEffect: none
     lifetime: 1
+    collidesAir: true
     despawnEffect: fire
     hitEffect: shootPyraFlame
     pierce: true
     status: melting
+    hittable: false
   }
 }
 requirements: [
