@@ -22,7 +22,7 @@ shootEffect: none
 smokeEffect: none
 ammoUseEffect: none
 ammoTypes: {
-  chargedcompound: {
+  unobtanium: {
     type: PointBulletType
     lifetime: 30
     speed: 300
