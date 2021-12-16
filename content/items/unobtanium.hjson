@@ -1,0 +1,10 @@
+type: material
+name: Unobtanium
+description: Antimatter stabilized inside of a container for transport.
+cost: 3
+flammability: 0.0
+explosiveness: 3.0
+radioactivity: 0
+charge: 0.0
+color: bc5454
+research: chargedcompound
