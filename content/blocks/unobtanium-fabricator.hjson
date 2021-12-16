@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Unobtanium Fabricator
+requiresWater: true
+description: Draws insane amounts of power to materialize a contained form of antimatter, deemed "Unobtanium." Has to be partially submerged in a body of water to provide ample cooling.
+itemCapacity: 2
+size: 3
+health: 900
+hasPower: true
+hasItems: true
+craftTime: 300
+consumes: {
+  power: 100
+}
+requirements: [
+  graphenec/125
+  densealloy/225
+  silicon/150
+  surge-alloy-100
+  phase-fabric/50
+]
+category: crafting
+research: compound-enricher
+idleSound: hum
+idleSoundVolume: 0.5
+outputItem: unobtanium/1
