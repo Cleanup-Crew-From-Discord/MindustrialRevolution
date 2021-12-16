@@ -13,6 +13,7 @@ ammoTypes: {
   pyratite: {
     type: BulletType
     damage: 33
+    trailEffect: fire
     hitSize: 8
     speed: 5
     shootEffect: shootPyraFlame
