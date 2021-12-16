@@ -15,7 +15,7 @@ requirements: [
   graphenec/125
   densealloy/225
   silicon/150
-  surge-alloy-100
+  surge-alloy/100
   phase-fabric/50
 ]
 category: crafting
