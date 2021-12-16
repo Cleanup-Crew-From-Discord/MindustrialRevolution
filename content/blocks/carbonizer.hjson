@@ -11,7 +11,7 @@ ammoUseEffect: none
 rotateSpeed: 8
 ammoTypes: {
   coal: {
-    type: FireBulletType
+    type: BulletType
     speed: 5
     damage: 24
     hitSize: 8
@@ -20,13 +20,13 @@ ammoTypes: {
     lifetime: 18
     despawnEffect: none
     collidesAir: true
-    hitEffect: shootBigSmoke
+    hitEffect: hitFlameSmall
     pierce: true
     status: burning
     hittable: false
   }
   pyratite: {
-    type: FireBulletType
+    type: BulletType
     speed: 5
     damage: 33
     hitSize: 8
@@ -35,7 +35,7 @@ ammoTypes: {
     lifetime: 1
     collidesAir: true
     despawnEffect: fire
-    hitEffect: shootPyraFlame
+    hitEffect: hitFlameSmall
     pierce: true
     status: melting
     hittable: false
