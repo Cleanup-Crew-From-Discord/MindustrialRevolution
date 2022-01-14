@@ -1,11 +1,12 @@
 type: GenericCrafter
 name: Snow Melter
 description: Warms snow to revert it back to liquid water
-itemCapacity: 6
+itemCapacity: 10
 size: 2
 health: 300
 hasPower: true
 hasItems: true
+hasLiquids: true
 craftTime: 5
 updateEffects: producesmoke
 craftEffect: steam
@@ -26,4 +27,4 @@ category: crafting
 research: snow
 idleSound: respawning
 idleSoundVolume: 0.5
-outputLiquid: water/24
+outputLiquid: water/2
