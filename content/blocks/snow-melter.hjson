@@ -18,9 +18,9 @@ consumes: {
   }
 }
 requirements: [
-   copper: 45
-   lead: 45
-   graphite: 30
+   copper/45
+   lead/45
+   graphite/30
 ]
 category: crafting
 research: snow
