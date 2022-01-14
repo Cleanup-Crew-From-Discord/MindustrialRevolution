@@ -1,1 +1,11 @@
-
+type: material
+name: Snow
+description: Frozen water in a powdery form. Can be melted for water early game if there are no alternatives.
+details: Normal drills scatter too much snow and generate too much heat to be viable for gathering snow. Shredding through ice is a more viable option, but requires stronger drills.
+cost: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0
+color: e1e9f0
+research: graphite
