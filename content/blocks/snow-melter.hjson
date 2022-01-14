@@ -27,4 +27,4 @@ category: crafting
 research: snow
 idleSound: respawning
 idleSoundVolume: 0.5
-outputLiquid: water/2
+outputLiquid: water/4
